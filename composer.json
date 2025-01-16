@@ -1,0 +1,13 @@
+{
+    "name": "givechi/gym_shop",
+    "description": "A group project: Website application",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Givechi\\GymShop\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}

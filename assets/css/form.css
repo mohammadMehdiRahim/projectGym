@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    font-family: vazir;
+    background-image: url("c:/xampp/htdocs/AirSport/assets/img/lucblackback.jpg");
+    color: rgba(78, 80, 76, 0.733);
+}
+form{
+    background-color: gold;
+    width: 400px;
+    height: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+h2{
+    text-align: center;
+}
+h2+p{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.inputed{
+    padding-right: 70px;
+    padding-left: auto;
+
+}
+.gmail{
+    margin-right: 35px;
+}
+.pass{
+    margin-right: 35px;
+
+}
+.name{
+    margin-right: 47px;
+}
+.fname{
+    margin-right:-13px;
+}
+input{
+    border: none;
+    padding: 7px;
+    background-color: rgba(221, 230, 213, 0.733);
+    opacity: 2px;
+    border-radius: 5px;
+    outline-color: gold;
+}
+a{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 70px;
+}
+.button{
+    display: inline-block;
+    width: 100px;
+    margin-right: 77px;
+    margin-top: 10px;
+    font-family: vazir;
+    background-color:  rgba(165, 161, 161, 0.932);
+    border: solid 0px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    cursor: pointer;
+
+}
+.user{
+    width: 100px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+}
+#check{
+    cursor: pointer;
+}
+#result{
+    color: black;
+    font-size: 15px;
+}
