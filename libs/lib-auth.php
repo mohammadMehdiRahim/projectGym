@@ -29,6 +29,15 @@ function isLoggedIn(){
     return isset($_SESSION['login']) ? true : false;
 }
 
+function doesUserExist($email){
+    global $pdo;
+    $sql = 'SELECT * FROM users where email = :email';
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute([":email"=>$email]);
+    $result = $stmt->fetchAll(PDO::FETCH_OBJ);
+    return $result ? true : false;
+}
+
 function register($username,$password,$email){
     global $pdo;
     $passhash = password_hash($password,PASSWORD_BCRYPT);

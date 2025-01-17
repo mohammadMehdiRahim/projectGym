@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>فرم ورود</title>
-    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
   </head>
   <body>
     <form action="<?=site_url("auth-login.php")?>" method="post">

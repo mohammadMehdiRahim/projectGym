@@ -6,7 +6,7 @@ include ROOT_PATH . "vendor/autoload.php";
 include ROOT_PATH . "libs/helpers.php";
 
 try {
-    $pdo = new PDO("mysql:dbname=$db;host=$host", $username, $password);
+    $pdo = new PDO("mysql:dbname=$db;host=$host;charset=utf8mb4", $username, $password);
 } catch (PDOException $pe) {
     diePage($pe);    
 }
